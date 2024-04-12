@@ -4,7 +4,7 @@ const Counter = () => {
   return (
     <main className={classes.counter}>
       <h1>Redux Counter</h1>
-      <div>-- COUNTER VALUE --</div>
+      <div className={classes.value}>-- COUNTER VALUE --</div>
       <button>Toggle Counter</button>
     </main>
   );
