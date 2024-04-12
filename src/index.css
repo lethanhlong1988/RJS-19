@@ -6,7 +6,13 @@ body {
   margin: 0;
   font-family: sans-serif;
   color: #252525;
-  background-color: #252525;
+  /* background-color: rgb(250, 0, 0); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(231, 231, 231),
+    rgb(190, 190, 190)
+  );
+  background-repeat: no-repeat;
 }
 
 button {
