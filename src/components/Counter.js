@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 
-import classes from "./Counter.module.css";
 import { counterActions } from "../store/index";
+import classes from "./Counter.module.css";
 
 const Counter = () => {
   const dispatch = useDispatch();
@@ -9,7 +9,6 @@ const Counter = () => {
   const show = useSelector((state) => state.showCounter);
 
   // Sử dụng redux toolkit
-
   const incrementHandler = () => {
     dispatch(counterActions.increment());
   };
