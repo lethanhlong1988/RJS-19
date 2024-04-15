@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <Counter />
-      {/* <Header />
-      <Auth />
-      <UserProfile /> */}
+      {/* <Header /> */}
+      {/* <Auth /> */}
+      {/* <UserProfile /> */}
     </>
   );
 }
